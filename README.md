@@ -76,7 +76,7 @@ odin build [your_project] \
     -extra-linker-flags:"-L/path/to/vendor/FAudio/build -Wl,-rpath,/path/to/vendor/FAudio/build"
 ```
 
-I'm sure you can do something similar in Windows, but I don't know how to do it _shrug_.
+I'm sure you can do something similar in Windows, but I don't know how to do it 🤷‍♂️.
 
 ## 🤝 Contributing
 
