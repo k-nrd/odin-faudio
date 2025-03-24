@@ -6,7 +6,7 @@
 
 Bindings for the [FAudio](https://github.com/FNA-XNA/FAudio) library, a cross-platform, open-source implementation of the XAudio APIs.
 
-⚠️ **WARNING**: These bindings are mostly an AI-generated first attempt, so keep that in mind and create an issue if you encounter any problems!
+⚠️ **WARNING**: These bindings are mostly an AI-generated first attempt, so keep that in mind and create an issue if you encounter any problems.
 
 ## ✨ FAudio Features
 
@@ -22,8 +22,6 @@ These bindings provide access to all of FAudio's powerful features:
 - 📱 Cross-platform compatibility (Windows, macOS, Linux, iOS, Android)
 - 🎮 Designed specifically for game audio needs
 - 🎹 STB Vorbis integration for Ogg Vorbis decoding
-
-## 📦 Installation
 
 ## 🔧 Usage
 
