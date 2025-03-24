@@ -4,16 +4,23 @@
 
 ## 🚀 Overview
 
-Bindings for the amazing [FAudio](https://github.com/FNA-XNA/FAudio) library, a cross-platform, open-source implementation of the XAudio APIs.
+Bindings for the [FAudio](https://github.com/FNA-XNA/FAudio) library, a cross-platform, open-source implementation of the XAudio APIs.
 
 ⚠️ **WARNING**: These bindings are mostly an AI-generated first attempt, so keep that in mind and create an issue if you encounter any problems!
 
-## ✨ Features
+## ✨ FAudio Features
 
-- 🔄 Complete bindings for the core FAudio API
-- 🎧 Support for 3D audio positioning with F3DAUDIO
-- 🎚️ XAPO (audio processing objects) support
-- 🎼 XACT3 (Cross-platform Audio Creation Tool) compatibility
+These bindings provide access to all of FAudio's powerful features:
+
+- 🔊 XAudio2 API implementation with support for submix voices and mastering
+- 🎛 Built-in audio processing effects (reverb, equalization, etc.)
+- 🎧 Hardware-accelerated 3D audio positioning via F3DAUDIO
+- 🔄 Real-time audio format conversion and resampling
+- 🔊 Support for various audio formats (PCM, ADPCM, xWMA)
+- 🎚️ XAPO (audio processing objects) framework for custom audio effects
+- 🎨 XACT3 audio engine support for content-driven audio
+- 📱 Cross-platform compatibility (Windows, macOS, Linux, iOS, Android)
+- 🎮 Designed specifically for game audio needs
 - 🎹 STB Vorbis integration for Ogg Vorbis decoding
 
 ## 📦 Installation
@@ -57,10 +64,10 @@ When using these bindings in your project:
 On Linux/macOS, if you want to use a local FAudio installation, you'll also need an SDL3 build, and after that you can follow these steps:
 
 ```bash
-# Clone or add the FAudio repository as a git subtree
+# Clone or git subtree the FAudio repository
 git subtree add --prefix=vendor/FAudio https://github.com/FNA-XNA/FAudio.git [LATEST_TAG] --squash
 
-# Build it
+# Build it (SDL3 is required, and we're using an example `vendor` directory here)
 mkdir -p vendor/FAudio/build
 cd ./vendor/FAudio/build
 cmake .. -DSDL3_DIR=/path/to/SDL3/build
