@@ -6,7 +6,7 @@
 
 Bindings for the [FAudio](https://github.com/FNA-XNA/FAudio) library, a cross-platform, open-source implementation of the XAudio APIs.
 
-⚠️ **WARNING**: These bindings are mostly an AI-generated first attempt, so keep that in mind and create an issue if you encounter any problems.
+⚠️ **WARNING**: These bindings are mostly a [bindgen](https://github.com/karl-zylinski/odin-c-bindgen)-generated first attempt, so keep that in mind and create an issue if you encounter any problems.
 
 ## ✨ FAudio Features
 
